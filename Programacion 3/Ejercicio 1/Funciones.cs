@@ -50,22 +50,22 @@ namespace Ejercicio_1
         }
         private void btn_sumar_Click(object sender, EventArgs e)
         {
-           lbl_resultado.Text = Sumar(Convert.ToInt32(txt_numero1), Convert.ToInt32(txt_numero2)).ToString();
+           lbl_resultado.Text = Sumar(Convert.ToInt32(txt_numero1.Text ), Convert.ToInt32(txt_numero2.Text)).ToString();
         }
 
         private void btn_restar_Click(object sender, EventArgs e)
         {
-            lbl_resultado.Text = Restar(Convert.ToInt32(txt_numero1), Convert.ToInt32(txt_numero2)).ToString();
+            lbl_resultado.Text = Restar(Convert.ToInt32(txt_numero1.Text ), Convert.ToInt32(txt_numero2.Text )).ToString();
         }
 
         private void btn_multiplicar_Click(object sender, EventArgs e)
         {
-            lbl_resultado.Text = Multiplicar(Convert.ToInt32(txt_numero1), Convert.ToInt32(txt_numero2)).ToString();
+            lbl_resultado.Text = Multiplicar(Convert.ToInt32(txt_numero1.Text ), Convert.ToInt32(txt_numero2.Text )).ToString();
         }
 
         private void btn_dividir_Click(object sender, EventArgs e)
         {
-            lbl_resultado.Text = Dividir (Convert.ToInt32(txt_numero1), Convert.ToInt32(txt_numero2)).ToString();
+            lbl_resultado.Text = Dividir (Convert.ToInt32(txt_numero1.Text ), Convert.ToInt32(txt_numero2.Text )).ToString();
         }
     }
 }
