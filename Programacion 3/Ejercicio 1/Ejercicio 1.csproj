@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Funciones de Texto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Funciones de Texto.Designer.cs">
+      <DependentUpon>Funciones de Texto.cs</DependentUpon>
+    </Compile>
     <Compile Include="Funciones.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,6 +60,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Funciones de Texto.resx">
+      <DependentUpon>Funciones de Texto.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Funciones.resx">
       <DependentUpon>Funciones.cs</DependentUpon>
     </EmbeddedResource>
