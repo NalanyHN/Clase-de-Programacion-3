@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FuncionesAcincronas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FuncionesAcincronas.Designer.cs">
+      <DependentUpon>FuncionesAcincronas.cs</DependentUpon>
+    </Compile>
     <Compile Include="FuncionesDeFecha.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -66,6 +72,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FuncionesAcincronas.resx">
+      <DependentUpon>FuncionesAcincronas.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FuncionesDeFecha.resx">
       <DependentUpon>FuncionesDeFecha.cs</DependentUpon>
     </EmbeddedResource>
