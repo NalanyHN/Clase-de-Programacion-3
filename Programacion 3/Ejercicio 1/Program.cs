@@ -16,7 +16,7 @@ namespace Ejercicio_1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FuncionesAcincronas ());
+            Application.Run(new Recursibidad());
         }
     }
 }
